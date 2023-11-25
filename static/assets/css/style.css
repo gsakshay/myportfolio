@@ -776,8 +776,8 @@ section .container {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 
-  width: 25rem;
-  height: 15rem;
+  /*width: 25rem;*/
+  /*height: 15rem;*/
 }
 
 .portfolio #portfolio-flters {
@@ -817,6 +817,10 @@ section .container {
 }
 
 .portfolio .portfolio-wrap {
+  /*Adding width and height so that project links stays in uniform*/
+  width: 25rem;
+  height: 12.5rem;
+
   transition: 0.3s;
   position: relative;
   overflow: hidden;
